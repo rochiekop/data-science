@@ -6,9 +6,9 @@ Program from pacman Data Science Max
 
 ## Roadmap
 
-- First 4 Week Learn About Python Language Programming
+- Python Language Programming
 
-- TBA
+- Data Visualization & Data Wrangling
 
 
 ## Lessons Learned
