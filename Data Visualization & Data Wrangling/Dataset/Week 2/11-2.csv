@@ -1,0 +1,29 @@
+age (years),race,median income (USD)
+15 to 24,Asian,43000
+15 to 24,White,42000
+15 to 24,Hispanic,42500
+15 to 24,Black,30000
+25 to 34,Asian,80000
+25 to 34,White,65000
+25 to 34,Hispanic,43000
+25 to 34,Black,39500
+35 to 44,Asian,100000
+35 to 44,White,78000
+35 to 44,Hispanic,50000
+35 to 44,Black,48000
+45 to 54,Asian,98000
+45 to 54,White,82000
+45 to 54,Hispanic,58000
+45 to 54,Black,51000
+55 to 64,Asian,91000
+55 to 64,White,70000
+55 to 64,Hispanic,50000
+55 to 64,Black,40000
+65 to 74,Asian,58000
+65 to 74,White,55000
+65 to 74,Hispanic,38000
+65 to 74,Black,30000
+>74,Asian,28000
+>74,White,32000
+>74,Hispanic,24000
+>74,Black,21000

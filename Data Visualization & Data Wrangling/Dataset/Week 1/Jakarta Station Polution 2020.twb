@@ -1,0 +1,1346 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20242.24.0613.1930                               -->
+<workbook original-version='18.1' source-build='2024.2.0 (20242.24.0613.1930)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='indeks-standar-pencemar-udara-di-spku-bulan-april-tahun-2020' inline='true' name='federated.102u17w0n261bn1al8h561lniskv' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='indeks-standar-pencemar-udara-di-spku-bulan-april-tahun-2020' name='textscan.1tmjaq70uyvuv414j5g3n1ihlxyr'>
+            <connection class='textscan' directory='C:/Users/ASUS ROG GL502VM/Documents/Course/Pacman/Data Science/Data Visualization &amp; Data Wrangling/Dataset/Week 1' filename='indeks-standar-pencemar-udara-di-spku-bulan-april-tahun-2020.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1tmjaq70uyvuv414j5g3n1ihlxyr' name='indeks-standar-pencemar-udara-di-spku-bulan-april-tahun-2020.csv' table='[indeks-standar-pencemar-udara-di-spku-bulan-april-tahun-2020#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='date' name='tanggal' ordinal='0' />
+            <column datatype='string' name='stasiun' ordinal='1' />
+            <column datatype='integer' name='pm10' ordinal='2' />
+            <column datatype='integer' name='so2' ordinal='3' />
+            <column datatype='integer' name='co' ordinal='4' />
+            <column datatype='integer' name='o3' ordinal='5' />
+            <column datatype='integer' name='no2' ordinal='6' />
+            <column datatype='integer' name='max' ordinal='7' />
+            <column datatype='string' name='critical' ordinal='8' />
+            <column datatype='string' name='categori' ordinal='9' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1tmjaq70uyvuv414j5g3n1ihlxyr' name='indeks-standar-pencemar-udara-di-spku-bulan-april-tahun-2020.csv' table='[indeks-standar-pencemar-udara-di-spku-bulan-april-tahun-2020#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='date' name='tanggal' ordinal='0' />
+            <column datatype='string' name='stasiun' ordinal='1' />
+            <column datatype='integer' name='pm10' ordinal='2' />
+            <column datatype='integer' name='so2' ordinal='3' />
+            <column datatype='integer' name='co' ordinal='4' />
+            <column datatype='integer' name='o3' ordinal='5' />
+            <column datatype='integer' name='no2' ordinal='6' />
+            <column datatype='integer' name='max' ordinal='7' />
+            <column datatype='string' name='critical' ordinal='8' />
+            <column datatype='string' name='categori' ordinal='9' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[indeks-standar-pencemar-udara-di-spku-bulan-april-tahun-2020.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tanggal</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[tanggal]</local-name>
+            <parent-name>[indeks-standar-pencemar-udara-di-spku-bulan-april-tahun-2020.csv]</parent-name>
+            <remote-alias>tanggal</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indeks-standar-pencemar-udara-di-spku-bulan-april-tahun-2020.csv_5920DA16FA4840699A68EA20CD59D2DE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stasiun</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[stasiun]</local-name>
+            <parent-name>[indeks-standar-pencemar-udara-di-spku-bulan-april-tahun-2020.csv]</parent-name>
+            <remote-alias>stasiun</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indeks-standar-pencemar-udara-di-spku-bulan-april-tahun-2020.csv_5920DA16FA4840699A68EA20CD59D2DE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pm10</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[pm10]</local-name>
+            <parent-name>[indeks-standar-pencemar-udara-di-spku-bulan-april-tahun-2020.csv]</parent-name>
+            <remote-alias>pm10</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indeks-standar-pencemar-udara-di-spku-bulan-april-tahun-2020.csv_5920DA16FA4840699A68EA20CD59D2DE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>so2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[so2]</local-name>
+            <parent-name>[indeks-standar-pencemar-udara-di-spku-bulan-april-tahun-2020.csv]</parent-name>
+            <remote-alias>so2</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indeks-standar-pencemar-udara-di-spku-bulan-april-tahun-2020.csv_5920DA16FA4840699A68EA20CD59D2DE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>co</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[co]</local-name>
+            <parent-name>[indeks-standar-pencemar-udara-di-spku-bulan-april-tahun-2020.csv]</parent-name>
+            <remote-alias>co</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indeks-standar-pencemar-udara-di-spku-bulan-april-tahun-2020.csv_5920DA16FA4840699A68EA20CD59D2DE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>o3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[o3]</local-name>
+            <parent-name>[indeks-standar-pencemar-udara-di-spku-bulan-april-tahun-2020.csv]</parent-name>
+            <remote-alias>o3</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indeks-standar-pencemar-udara-di-spku-bulan-april-tahun-2020.csv_5920DA16FA4840699A68EA20CD59D2DE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>no2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[no2]</local-name>
+            <parent-name>[indeks-standar-pencemar-udara-di-spku-bulan-april-tahun-2020.csv]</parent-name>
+            <remote-alias>no2</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indeks-standar-pencemar-udara-di-spku-bulan-april-tahun-2020.csv_5920DA16FA4840699A68EA20CD59D2DE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>max</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[max]</local-name>
+            <parent-name>[indeks-standar-pencemar-udara-di-spku-bulan-april-tahun-2020.csv]</parent-name>
+            <remote-alias>max</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indeks-standar-pencemar-udara-di-spku-bulan-april-tahun-2020.csv_5920DA16FA4840699A68EA20CD59D2DE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>critical</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[critical]</local-name>
+            <parent-name>[indeks-standar-pencemar-udara-di-spku-bulan-april-tahun-2020.csv]</parent-name>
+            <remote-alias>critical</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indeks-standar-pencemar-udara-di-spku-bulan-april-tahun-2020.csv_5920DA16FA4840699A68EA20CD59D2DE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>categori</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[categori]</local-name>
+            <parent-name>[indeks-standar-pencemar-udara-di-spku-bulan-april-tahun-2020.csv]</parent-name>
+            <remote-alias>categori</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indeks-standar-pencemar-udara-di-spku-bulan-april-tahun-2020.csv_5920DA16FA4840699A68EA20CD59D2DE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='indeks-standar-pencemar-udara-di-spku-bulan-april-tahun-2020.csv' datatype='table' name='[__tableau_internal_object_id__].[indeks-standar-pencemar-udara-di-spku-bulan-april-tahun-2020.csv_5920DA16FA4840699A68EA20CD59D2DE]' role='measure' type='quantitative' />
+      <column caption='Categori' datatype='string' name='[categori]' role='dimension' type='nominal' />
+      <column caption='Co' datatype='integer' name='[co]' role='measure' type='quantitative' />
+      <column caption='Critical' datatype='string' name='[critical]' role='dimension' type='nominal' />
+      <column caption='Max' datatype='integer' name='[max]' role='measure' type='quantitative' />
+      <column caption='No2' datatype='integer' name='[no2]' role='measure' type='quantitative' />
+      <column caption='O3' datatype='integer' name='[o3]' role='measure' type='quantitative' />
+      <column caption='Pmo10' datatype='integer' name='[pm10]' role='measure' type='quantitative' />
+      <column caption='So2' datatype='integer' name='[so2]' role='dimension' type='ordinal' />
+      <column caption='Stasiun' datatype='string' name='[stasiun]' role='dimension' type='nominal' />
+      <column caption='Tanggal' datatype='date' name='[tanggal]' role='dimension' type='ordinal' />
+      <column-instance column='[categori]' derivation='None' name='[none:categori:nk]' pivot='key' type='nominal' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/ASUSRO~1/AppData/Local/Temp/TableauTemp/#TableauTemp_1q86fyx1gtqawt1ayxxav0opuiib.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='07/27/2024 08:56:53 AM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>tanggal</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[tanggal]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>tanggal</remote-alias>
+              <ordinal>0</ordinal>
+              <family>indeks-standar-pencemar-udara-di-spku-bulan-april-tahun-2020.csv</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>30</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indeks-standar-pencemar-udara-di-spku-bulan-april-tahun-2020.csv_5920DA16FA4840699A68EA20CD59D2DE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>stasiun</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[stasiun]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>stasiun</remote-alias>
+              <ordinal>1</ordinal>
+              <family>indeks-standar-pencemar-udara-di-spku-bulan-april-tahun-2020.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indeks-standar-pencemar-udara-di-spku-bulan-april-tahun-2020.csv_5920DA16FA4840699A68EA20CD59D2DE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>pm10</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[pm10]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>pm10</remote-alias>
+              <ordinal>2</ordinal>
+              <family>indeks-standar-pencemar-udara-di-spku-bulan-april-tahun-2020.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>52</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indeks-standar-pencemar-udara-di-spku-bulan-april-tahun-2020.csv_5920DA16FA4840699A68EA20CD59D2DE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>so2</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[so2]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>so2</remote-alias>
+              <ordinal>3</ordinal>
+              <family>indeks-standar-pencemar-udara-di-spku-bulan-april-tahun-2020.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>29</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indeks-standar-pencemar-udara-di-spku-bulan-april-tahun-2020.csv_5920DA16FA4840699A68EA20CD59D2DE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>co</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[co]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>co</remote-alias>
+              <ordinal>4</ordinal>
+              <family>indeks-standar-pencemar-udara-di-spku-bulan-april-tahun-2020.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>29</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indeks-standar-pencemar-udara-di-spku-bulan-april-tahun-2020.csv_5920DA16FA4840699A68EA20CD59D2DE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>o3</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[o3]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>o3</remote-alias>
+              <ordinal>5</ordinal>
+              <family>indeks-standar-pencemar-udara-di-spku-bulan-april-tahun-2020.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>72</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indeks-standar-pencemar-udara-di-spku-bulan-april-tahun-2020.csv_5920DA16FA4840699A68EA20CD59D2DE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>no2</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[no2]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>no2</remote-alias>
+              <ordinal>6</ordinal>
+              <family>indeks-standar-pencemar-udara-di-spku-bulan-april-tahun-2020.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>15</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indeks-standar-pencemar-udara-di-spku-bulan-april-tahun-2020.csv_5920DA16FA4840699A68EA20CD59D2DE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>max</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[max]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>max</remote-alias>
+              <ordinal>7</ordinal>
+              <family>indeks-standar-pencemar-udara-di-spku-bulan-april-tahun-2020.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>70</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indeks-standar-pencemar-udara-di-spku-bulan-april-tahun-2020.csv_5920DA16FA4840699A68EA20CD59D2DE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>critical</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[critical]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>critical</remote-alias>
+              <ordinal>8</ordinal>
+              <family>indeks-standar-pencemar-udara-di-spku-bulan-april-tahun-2020.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indeks-standar-pencemar-udara-di-spku-bulan-april-tahun-2020.csv_5920DA16FA4840699A68EA20CD59D2DE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>categori</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[categori]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>categori</remote-alias>
+              <ordinal>9</ordinal>
+              <family>indeks-standar-pencemar-udara-di-spku-bulan-april-tahun-2020.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indeks-standar-pencemar-udara-di-spku-bulan-april-tahun-2020.csv_5920DA16FA4840699A68EA20CD59D2DE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:categori:nk]' type='palette'>
+            <map to='#59a14f'>
+              <bucket>&quot;BAIK&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;TIDAK SEHAT&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;SEDANG&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='indeks-standar-pencemar-udara-di-spku-bulan-april-tahun-2020.csv' id='indeks-standar-pencemar-udara-di-spku-bulan-april-tahun-2020.csv_5920DA16FA4840699A68EA20CD59D2DE'>
+            <properties context=''>
+              <relation connection='textscan.1tmjaq70uyvuv414j5g3n1ihlxyr' name='indeks-standar-pencemar-udara-di-spku-bulan-april-tahun-2020.csv' table='[indeks-standar-pencemar-udara-di-spku-bulan-april-tahun-2020#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='date' name='tanggal' ordinal='0' />
+                  <column datatype='string' name='stasiun' ordinal='1' />
+                  <column datatype='integer' name='pm10' ordinal='2' />
+                  <column datatype='integer' name='so2' ordinal='3' />
+                  <column datatype='integer' name='co' ordinal='4' />
+                  <column datatype='integer' name='o3' ordinal='5' />
+                  <column datatype='integer' name='no2' ordinal='6' />
+                  <column datatype='integer' name='max' ordinal='7' />
+                  <column datatype='string' name='critical' ordinal='8' />
+                  <column datatype='string' name='categori' ordinal='9' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Category O3'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Category O3</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='indeks-standar-pencemar-udara-di-spku-bulan-april-tahun-2020' name='federated.102u17w0n261bn1al8h561lniskv' />
+          </datasources>
+          <datasource-dependencies datasource='federated.102u17w0n261bn1al8h561lniskv'>
+            <column caption='Categori' datatype='string' name='[categori]' role='dimension' type='nominal' />
+            <column-instance column='[categori]' derivation='None' name='[none:categori:nk]' pivot='key' type='nominal' />
+            <column caption='O3' datatype='integer' name='[o3]' role='measure' type='quantitative' />
+            <column-instance column='[o3]' derivation='Sum' name='[sum:o3:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='header'>
+            <format attr='height-header' value='17' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.102u17w0n261bn1al8h561lniskv].[none:categori:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.102u17w0n261bn1al8h561lniskv].[none:categori:nk]</rows>
+        <cols>[federated.102u17w0n261bn1al8h561lniskv].[sum:o3:qk]</cols>
+      </table>
+      <simple-id uuid='{CFCCEF3D-BCC0-4C1A-81BD-91A90E0C929A}' />
+    </worksheet>
+    <worksheet name='Jakarta Station Level of O3 In April 2020'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Jakarta Station O3 Level April 2020</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='indeks-standar-pencemar-udara-di-spku-bulan-april-tahun-2020' name='federated.102u17w0n261bn1al8h561lniskv' />
+          </datasources>
+          <datasource-dependencies datasource='federated.102u17w0n261bn1al8h561lniskv'>
+            <column-instance column='[stasiun]' derivation='None' name='[none:stasiun:nk]' pivot='key' type='nominal' />
+            <column caption='O3' datatype='integer' name='[o3]' role='measure' type='quantitative' />
+            <column caption='Stasiun' datatype='string' name='[stasiun]' role='dimension' type='nominal' />
+            <column-instance column='[o3]' derivation='Sum' name='[sum:o3:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.102u17w0n261bn1al8h561lniskv].[none:stasiun:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.102u17w0n261bn1al8h561lniskv].[sum:o3:qk]</rows>
+        <cols>[federated.102u17w0n261bn1al8h561lniskv].[none:stasiun:nk]</cols>
+      </table>
+      <simple-id uuid='{722ACED6-2DDA-4A8C-9AAF-420B2D7467DB}' />
+    </worksheet>
+    <worksheet name='O3 Level in Day January 2020'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>O3 Level in Day in January 2020</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='indeks-standar-pencemar-udara-di-spku-bulan-april-tahun-2020' name='federated.102u17w0n261bn1al8h561lniskv' />
+          </datasources>
+          <datasource-dependencies datasource='federated.102u17w0n261bn1al8h561lniskv'>
+            <column-instance column='[tanggal]' derivation='Day' name='[dy:tanggal:ok]' pivot='key' type='ordinal' />
+            <column caption='O3' datatype='integer' name='[o3]' role='measure' type='quantitative' />
+            <column-instance column='[o3]' derivation='Sum' name='[sum:o3:qk]' pivot='key' type='quantitative' />
+            <column caption='Tanggal' datatype='date' name='[tanggal]' role='dimension' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.73563534021377563' />
+                <format attr='mark-color' value='#606b76' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.102u17w0n261bn1al8h561lniskv].[sum:o3:qk]</rows>
+        <cols>[federated.102u17w0n261bn1al8h561lniskv].[dy:tanggal:ok]</cols>
+      </table>
+      <simple-id uuid='{66F18EDC-3BA5-4E97-9121-9E52503D51DF}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='6' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98416' id='9' param='horz' type-v2='layout-flow' w='99166' x='417' y='792'>
+            <zone fixed-size='432' h='98416' id='5' is-fixed='true' param='horz' type-v2='layout-flow' w='22500' x='417' y='792'>
+              <zone h='98416' id='7' name='Jakarta Station Level of O3 In April 2020' w='22500' x='417' y='792'>
+                <layout-cache fixed-size-w='366' minheight='203' type-h='scalable' type-w='fixed' />
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='1081' h='98416' id='8' is-fixed='true' param='vert' type-v2='layout-flow' w='56302' x='22917' y='792'>
+              <zone fixed-size='311' h='31584' id='12' is-fixed='true' name='Category O3' w='56302' x='22917' y='792'>
+                <layout-cache minwidth='180' type-h='cell' type-w='scalable' />
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='66832' id='11' name='O3 Level in Day January 2020' w='56302' x='22917' y='32376'>
+                <layout-cache cell-count-w='30' minheight='184' non-cell-size-w='59' type-h='scalable' type-w='cell' />
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='850' minheight='850' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='14' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98416' id='13' param='vert' type-v2='layout-flow' w='99166' x='417' y='792'>
+                <zone fixed-size='280' h='98416' id='7' is-fixed='true' name='Jakarta Station Level of O3 In April 2020' w='22500' x='417' y='792'>
+                  <layout-cache fixed-size-w='366' minheight='203' type-h='scalable' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='245' h='31584' id='12' is-fixed='true' name='Category O3' w='56302' x='22917' y='792'>
+                  <layout-cache minwidth='180' type-h='cell' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='66832' id='11' is-fixed='true' name='O3 Level in Day January 2020' w='56302' x='22917' y='32376'>
+                  <layout-cache cell-count-w='30' minheight='184' non-cell-size-w='59' type-h='scalable' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{0F49DFBB-95FB-48FC-811C-F344698168A9}' />
+    </dashboard>
+    <dashboard name='Story 1' type='storyboard'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Jakarta Station Level of  O3&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98230' id='1' param='vert' removable='false' type-v2='layout-flow' w='99064' x='468' y='885'>
+            <zone h='3650' id='3' type-v2='title' w='99064' x='468' y='885' />
+            <zone h='11173' id='4' is-fixed='true' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='99064' x='468' y='4535' />
+            <zone h='83407' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='99064' x='468' y='15708'>
+              <flipboard active-id='2' nav-type='caption' show-nav-arrows='true'>
+                <story-points>
+                  <story-point caption='In this chapter show that the number level of  O3 in month April , The most highly values is in Kebon Jeruk Station with value 2726' captured-sheet='Jakarta Station Level of O3 In April 2020' id='1' />
+                  <story-point caption='Linear Plot' captured-sheet='O3 Level in Day January 2020' id='2' />
+                </story-points>
+              </flipboard>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <simple-id uuid='{D2BDB68D-D9A9-4073-8AAD-543ADDCF1B11}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Jakarta Station Level of O3 In April 2020'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+          <strip size='160'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='38'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.102u17w0n261bn1al8h561lniskv].[none:stasiun:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.102u17w0n261bn1al8h561lniskv].[none:categori:nk]</field>
+            <field>[federated.102u17w0n261bn1al8h561lniskv].[none:stasiun:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{71EF9BC7-275C-4CE6-933D-FA36B0A7C42F}' />
+    </window>
+    <window class='worksheet' name='O3 Level in Day January 2020'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.102u17w0n261bn1al8h561lniskv].[yr:tanggal:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{7B396A8B-BF33-4D80-8766-ED61A448C60B}' />
+    </window>
+    <window class='worksheet' name='Category O3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.102u17w0n261bn1al8h561lniskv].[none:categori:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.102u17w0n261bn1al8h561lniskv].[none:categori:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{3DE8A123-71B1-41DD-B5BF-C9A0A8AF03AD}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Category O3'>
+          <zoom type='fit-height' />
+        </viewpoint>
+        <viewpoint name='Jakarta Station Level of O3 In April 2020' />
+        <viewpoint name='O3 Level in Day January 2020'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='7' />
+      <simple-id uuid='{5BB81C08-1CA8-4B4B-948D-C2370887C1B6}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Story 1'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{B9A31BB5-712F-4EB3-80E0-B6E0EEECE9BC}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='136' name='Category O3' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Jakarta Station Level of O3 In April 2020' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='O3 Level in Day January 2020' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Story 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAcjElEQVR4nO2dSXAbV5rn/5nYCIDEToAASZCURGuhRO2bqc2WJW+yrMXl6gp3TUx1TFRM
+      R/eh+9qnOszEXCaiY5aeak9E90R1tcvuLpdtlUq2ypZKiy1RFEVRpBZKIilS3ECA2Hcggcw5
+      0JQpiaSQBBIJIN/vIjuZ+fJh+SPf971voTiO40AgSBRa7AkQCGJCBECQNEQABEnznAC+/t3n
+      iD5z7NNff4TkCwZiIh4MjLgW/BvHZfDbX/8zPvzwH3HpWj/8k8OY8D57FyDkfozR6RAA4Pr1
+      rpxewJkvz+R03nw++ujXCx7PZuL4+//2X3Gl594Px5g4fv1PH+KX//C/caX3PjKJAP7pww/x
+      j7/8P+i89YD3vQmlhfzZA+7JKWQ4DhfOfoERdxRHT7w3+weOw/Xubqxrbcbnp/4AnWMVjh7a
+      i9u3b2FyeATJhAeXb7tx/PgJ1CqiuNJzFx0H38LaFgfYiAvjcQ3+5ud/AY7N4F/+53/BSEKH
+      YydOION5iP7BSbz+zjFc+ew36J+R4/iJ46iqqgLHcei+/DXuT4Zw7NgxPHrQD/fEGBJKM469
+      vh8A4HL9ILqxwds4991NvP7OMbjHhrFlyxY87O+FffV6dP7xFKIyI469dfCp1zt6/xbOX72F
+      g28exVj/1xidjmDHvL93/+k0Vu99F9tbrfjwf/0Dtm38K/zFz38Oz/gg/tj1ALs3rS78p0Io
+      GosugRpbWvGSU49TZy4BbAqnP/0NFHo75EoV2jduxuMb32AiwuH07z7B2t0H8PqBPdh3+Cj2
+      7dgAY60dm9rX4/dfnJq9SU0DXmm34n/8/X/Hpe572NvRgbdOfoAta5pgq2/GhjXNOPX7M+jo
+      6MDr7/4Y29evwu3b/QiM9WMwVIVjh3fjsy/OoL+3F5s6XkN0fBipZ+bLZRl8/NvPsW71Cvzb
+      J58iMf0IQ54orvXdxXjPOYxGFch67uG722NPrmEzcZy9eAM//eB9fHnqM+zadwAdew6hY+u6
+      J+d4PGE0O+tAUTRsuipEGBpdl/6If/3tH7BixYrCfhqEovNEAGyGQZph4E2nURWZxCenL4LJ
+      ZsFlWQAAx7JIJlP49qsvMOaPIssyyLJA8+p2NNeZQNE0ItEo2GwWH3/8MdJMGuz3HtZMPASD
+      cz3+6i9/jsF7faBpGtFoFBkmhk8++RzpdAYcx0L2/XGWnb0nOGDOScuBA6XSwGbSQaVSPfdC
+      OADpVAqQq7B92yZs37sXnV/+O/S2lchmM2CYDBpa29Fg1jx93bzxF+KlNc24ePEaktEAhvxJ
+      KBNetGzYjb/+zz/DzWud+bz3hBJA9otf/OIXAJBNhvAv//oxdh98Cw319Yi4HiGjNmHtihWo
+      q7Niz6uH4B55gLUb29F7owet69qxcuUqVMkBm80GudaI8f5OhLJqNFu1GHaFsLl9Axrr7aDA
+      4urFb9B5cwBHjx2Do6EBNy6dhVzfAIMyCW9Shg3rWtG6dj36r3wDVmOBzaRD00vtSLkf4Ltb
+      Qzhx7ChUChnqbDYAQG2dDTSAZNCFr765iCSlwb5t63CtuxeOplY0NToR8Exgx94DaFrRisDY
+      AB57wmhv3wC1Sg6brQ4UrUBtDY0vvjyP148ch6FaDZpWwmo1PnmDzI4WxF0DOH+lFyff/zGq
+      FRzO//ErdPc/xDvHjkOnrRLjcyMUCIpshBGkDHGDEiQNEQBB0hABECQNEQBB0jy3EUYglAss
+      yyIYDOY1BnkCECQNEQBB0hABECqCVCyEBDP3f1nE40mEQiEAHJLJpwNnZo/PQjbCCGXLfBsg
+      EfbCFUiBSSbQ0mLH4NAUtGoaHC2HkqIwOT2NjZs2YfzxGOQKBdJpBhSXJEYwoTKQqzQwmTRQ
+      yYyQK6tgMmhRozeApjhkGAYOigJNy1CtrYJCrYNGJUckEiJPAEL5QrxABML3ZBkGDMMgmU4/
+      OcYwzJN/U/E4sgtcR5ZAhIrA65pASqZGIhqAyWTCo5EJ6HUaNDhb4BofgVqlRoLlQLMpJLJK
+      rHIYMOYOkCUQoXx5ygiO+OGPZqGrViISDiMWT0FTrYXeYEIy7AfLyaHWKhEIhaGqqoZBTSPJ
+      0kQAhPKlEDYAWQIRKopIyA9KoYW2SobJiUlU602Ihf2oMdmglAFVVU8nMJEnAKFsmf8ECPln
+      4A/FkE4nUd/YAjoTRUauQyzsg4xLg1IZIUMaqXgMGVoJk0aBcbefPAEIlYXFZke1RoUsw8E9
+      Pg5NdQ3SSQ4q1WyeuaZGDwCgacBmtZInAKF8IfsABEKeEAEQJA2xAQhlC0VRUKvV+Y1BbACC
+      lCFLIIKkIQIgSBoiAIKkIQIgSBoiAIKkIQIgSBqyD0AoETj0XDgDb5UTLQY5au12uFweNDpq
+      Me4OokYth0qtxYzbg2QghLV7dkHz4kFfCBEAoUSg0NSyAmpOj8Fb36L39m3UORy4OTCMeqsO
+      NhuFq31+BAN+6PWNWFuguxIBEEoGfV0TNFBAyWyGzmiESqmCbWwIvcMzUDA0nK1taOUYWCxW
+      PN8jaHkUbCeYZVnQNDEpCOVFwb6xJKKCUI6Qn2yCpCECIEgaIgCCpCECIEgaIgCCpCECIEga
+      IgCCpOG1E8wmZnD9rgcOazW8ngBqjBokkiza29YINT8CQVB4CSDDKqCRx+Hxy2A36xEGhRoN
+      B5ZlwbIs2Qwrce4PDqPWbIbZZBB7KiUDLwEo1NWo0VvhdNox7Qlihb4K4SRA0zQ4joNMJhNq
+      noQ86erpw/DIGOKJBNrWtGL39s1iT6kkKFgsUDabJQIoUbp6+jA+MYWTR98AAFy+2o3hkcd4
+      7903oaupFnl24kIEUOF09fRhbGIK7x19AxRFPTnu8frw6amz2LNrq6RtOCKACmaxL/8cLMvi
+      7PnLCIYiOH7kENTPlA6XAkQAFQjHcejs7oVr2oMT77y+4Jd/Po8npvCHs+dx6JW9eGllc3Em
+      WSIQAVQYHMfh6vWb8Hh9OP724Zyvy2QyOPXVechkNI4cfhVyuTQ+SyKACmK5X/75DDwcxoVv
+      r+FnH5yUxJKICKBC4DgOF769hkQyhbcPH8hrrCtdPTDodWhb01qYyZUwJBSiApj78qdS6by/
+      /ADQ4mzAyOPx/CdWBhABVAA9fXeQTKXw5qH9BRnPbDLA6wsUZKxShwigAngwOIIDe3YVbDyV
+      SoWsREJbiAAqgEQyCY26sAZrtVaDQChc0DFLESKAMieTyUIhL3x5pwZHHaZc7oKPW2oQAZQ5
+      qXQackXhBdAsEUOY9zs3PjoKk0mHMXcINqMa4QSH5ka7EHMj5IDPH4DFZCz4uGaTAT5/fi1I
+      ywFeAkjHI5iZCYJWysGxWUSSGchA8gHEZNo9A4vZiEwmU9Bx5TIZGIYBw2TwgkiKsoZfQkw2
+      C45Lg6Nk4NIpQKNAPMWSfAAR8QWCaF+3GnIB7ACDXodILAaTQV/wsUsFXu+apsaArTt2AAAa
+      7GTZUwr4AyEYjcJkeNV/bwhXsgCIEVzmCOECnUMKO8KCCmDg4RCCEvAli0U2m4VCoRBsfJPR
+      AF8gJNj4pYCgAojHk3g8PiXkLSRNMpWGTMCS9CqVEplMpqKdG4IKoNZigsfrFfIWkiYQDKHW
+      YhL0Hvqa6op+igsvgBmfkLeQNNOeGcEFUO+ow2QF7wgLKgCVUolUKi3kLSSN3x+EzWIW9B7N
+      zgY8Gh0T9B5iIqgAKIpC5a4exccXCEKv1wl6D7PRgECQLIGWBUVRoCgK2Swr5G0kSzyRRLW2
+      EM1CF0elUiKVTlesISz4PoDFbIQvII3kimKSzWaLFqJg0OsQCFamO1RwAdSajCVrCBc6fqaY
+      pNJpVKkK1Sx0aRoq2BAWXADWWkvJCuA3vzuN4ZHyNPCCoQiMRQpRWNHUWLE7wsI/ASwmeP2l
+      twRimAyGR8YwOj4p9lSWhdszA6vAHqA5jEZ9xWaHCS6Aaq0G0VhM6NvwZvDRCHZv34yJKZfY
+      U1kWHq9f8D2AOebc2ZVmCE97ZvgJgOM4dF68jImpMdy8cQuDww/Rf/f+ktdQFAWOLb037tbt
+      AezatgkMU552QCAYKmqUptGgryhDmGVZnPn6Ir9w6PDMBOIZDv5QAjYeDTI4AAzDvLBGZbHI
+      ZLKIRGOo1mogl8kQi8WhUinFnhYvItEYqqpURTPkHXVWjE+6Kqac+o1bt7GqxclPAHprI/bs
+      qYVcQfNqkGEy6BGNxYtmtL2IoZExrF7VArlcjob6OrjcM1i1oknsaeVMNpuFXCYTJAlmMVat
+      aML1nj5sXL+2aPcUilg8gb479/Gffvo+fxtAVVUFmUyJersVKo0OtaYX70RazEbM+PzLmqwQ
+      3Oy7g83tbQCAFmcjJqamRZ4RP1LpNBRK4cKgF8Jo0CMUjhb1nkJx5usLeOPgPshksuIkxNis
+      peMKZTIZRGNx6HU1AGYf7VPTHpFnxY9gKAKTQFlgi6FUKCpiR3h4ZAwymQxNjfUAipQRVms2
+      w10iAhgeGXtquaNSKZFKpUScEX/cHq/gQXALYTYa4C/jBJlMJoNzl67grdd+KCFZFAEY9DUI
+      hUvDj9zbfxdbvl/+ALP2i1wuB1NGu8JeX/FcoPNpqK/DpKu8lovzuXy1G9s3t0M9L4W0KAKg
+      KAql8ORkMhmEI1EYnomgrLNZ4CqjZZAvEIRR4CjQhWist+NxmW4cen0BPJ6YxOb2dU8dL6IA
+      xFfAyOg4WhdoAdTibCirDzYai6NGBHek0aBHMBQp+n3zheM4nPn6Ao6+cfA5V3zRqkLUVGsR
+      iYrrRei7e/+J92c+Dnv5BHtls1lB84CXQqlQgCnDHOG+u/dhr7PCvEAFvaK9k7UWk6g157Ms
+      O7sXscDSoUqlRDyeEGFW/GGYDJRFdoHOp9wM4UQyiWvdt/DK3oXLxxdPAGYTPF7xPEFj45Nw
+      NixczIumadAyWVkYwsFQ+IkLVwzq7bayMoTPnruMQwdeXrSCdtEEYK01i7oX0Hdn4eXPHFaL
+      CdPumSLOaHm4vT5Yay2i3d/Z6Cgbe2l80oVUOo2VLYvv8hdNAGajeNWGWZZFILR08FhTY31Z
+      fLAejxe22uLvAcxh1OsQCuduCHMch4tXunDrzoCAs3qebJbFNxe+w5HXX1nyvKIJQCaTIcuK
+      kxs8PumCo8625DnOBgfGJkq/iFcgFBY1pkqhUCDN5G4Id3b3IhqNIRAM4f/+6hNMe4pTJ2rg
+      4RCanA2o1mqXPK9o0VQURYEWKRq0p+8OXt6+ZclztBp1WRjCkWgMNdVLf6hCM2cIm01Lh2MM
+      PXqM0bFJ/OTkEVAUha0b1+PUV+dQrdXgzYP7UVUlTEony3Ho6unDBz86+sJzeT0BMskY7g8M
+      wO/zYWBwBH7vNEbHc08oUSgVSCSLG3bAsiy8vgDqbLVLnkfTNGiaLmlDmGXZJ5U2xKTebnth
+      AKHXF8CfLnfi/WNvPpmvrqYaP33/GDa2rcGvPvkcXT19gsxvcHgUzc76nHKmeT0BZCoNZNk4
+      vMHoshpkmI0GuD0zaHDU8bltXoxPulBnrc0pbt5mtcDlcsNhX3q5JBapVBpyuUz0ZP56hw3X
+      b/ajbc2qBf+eSCbx8Wen8cF7s7/Az87X2eDAzz44iatdPfjlP3+Etw8feOESNVc4jsOVrh78
+      +PhbOb1P/DrEJKJg5VVQK5WIxKO8G2TUWWvhD4TQ7Gzgc9u8uHVnADu3bsopdt7Z4MD41DSc
+      30cKlhq+QBAmg76oeQALYTEZEQpHFpwHk8ng3z7/EifePvzCiNUDe3Zh+5aNOH32PGQyGd46
+      dABajTqvuT0YGkFTowNaTW71kngtgVSaGqxe0wZnox1tG9rQ1NiE1atacr5+tlhu8VyhLMvC
+      M+ODo86a0/lNjfUYnyxdH7fb4xUlCO5ZFAoFmAUMYY7jcOrLc9i1bRPqc3zKazVq/NmJI9i1
+      bRP+328+zSsmi+U4XL1+Ex07t+Z8TVH31C0mI7xFTIyZdLlRz2M5o9WUZgL/HJ4ZH2wi7gHM
+      p9ZshC/wtFv74pUuWExGrF/7Eu/xGuvt+NlPTuLzL79Zdp720PAonA12XvWSiioApVKBdJop
+      2v16+u5gy8b1OZ8vk80awmyJxrr4gyGYjKWRVuqos2Fi3tPy7v1BeGZ8OLBn57LH1Go1eGXP
+      Tpz5+gLva1mOw7ed3ejYkfuvP1BkAVAUVbQvF8uycHu8OS9/5rDVWuApkq+aL7Mu0NJISm9y
+      1mNkbLZY1sTUNK5ev4mT77yR97hrX1oFDhweDD7idd3Q8CjqHXW8XatFFwBN00UpRcJ3+TOH
+      s8FekjnCLMuCpsV3gc5h0OkQCIYRicZw+uyf8Oc/ehdyeWG6hB45/CoufNeFaCye0/ksx+Fy
+      Zzf2v7yD972KHldrqzU/t3YUgp55ie98cDY4SrJaXJphFg3oEgOFQg6GYfDRb3+P946+8VSW
+      VSHGfueNV/G702dzOn9oeBQNjrplzaHoApjtGiPsEmNu+bOcJ0C1VoNYjr88xSQciUInYhTo
+      QqxfuxoH9+8WxDNVb7fB2eBAZ3fvkufl8+sPiCAAq8UieIL81LTnhTu/iyGTyZDJZkvOEJ52
+      z8BqFt8FOp+OnVvQuqJZsPH3v7wDAw+Hlyypk8+vPyDSEmjGK6wrtLf/LrZt2rDs6221FsyU
+      SBWLObz+F4dzVBo0TePEkcP44sw3yGSzz/09319/QAQBqFRKJFNJwcZnWQ6u6ZllLX/myCXW
+      pdj4/MGSqaxXTAx6HbZvaUf3zf7n/jY0PIp6uy0v+6PoAhC6WK4/EIQ1z3j5pkYHHpVYPfxI
+      NCp6FKhYbGxbg0mXG7H4D7YZx3H47toN7Nu9Pa+xRREATdNgBRJB7+27aFvTmtcYupoahCOl
+      UwaQZVmAm10SSBGKorBz60Z8cebck2PDo2OwWWuhzbNHmijvqMlogF8AVyjHcRgdm8SKZmde
+      48jlstkI1xIxhGcT4curenWhaay3w26rxfWb/eA4DpevXMeBjuWv/ecQRQBmk0EQV2goHEG1
+      VgOZLP+XZTYZ4ROxisV8ItGo4N0gy4H9e3bi9r0H6L7ZD5vVkvevP7CMhJi+G524+/BRzg0y
+      FsJmtQjSNun2vYcFK9/tbLBjvES6x0x7vHnbNZWAjKZx/O1DOPunyzjQsfyYo/nw21qkFajR
+      aRFMpHk1yHgWi8mI3r67BU/seDj8CD/derwg4zrrHbh0tQvt61YXYGb54Z7xwlnvED0RphTQ
+      1VTj7/72LwEUpssnLwFQFAtOVoP2tnq4Z3JvkPEsOl0NIrF4QRM7EokkaIouWNEok3G2Hr7Y
+      yScAEAiGsXXj+pKYS6XBLyVSUYWVK2cTYOrts1GWtctYhs0mxxfWwOy/9wDt69cUbLy5LxvL
+      caIl888RjkQqpjVRqSGKETwb0UgVzBXKcRzu3HuAttX5uT+fxWjQwy9SLaM5ZpeW0nWBCo1o
+      76quprpgvnaGyUChUBS8zMZsaLS4hjDDZKBUiFcLtNIRTQBWi7lg6ZEPh0ewsiU/3/9CNDsb
+      RM8RLoU6QJWMeAKoNRescV7/3fvYIIC3xqjXwRcQdy9g2jNDXKACIpoALGYjpj35F6PNfN/0
+      TggjUS6Xi97k2+cPwGYtjUT4SkQ0AZgMeoQK0G1keHRckOXPHHp9DYIh8fqbzfgCMBe5I6SU
+      WFQA2XQMt+/dww2BytcVqvpC/937TzW9KzQN9jqMT4pnCEeiMeICFZBFBeAZeohgMIpkkoEQ
+      lXIoipqNcswDlmURCIYEjZOfLZsuTtVolmWRzWaJC1RAFn1nDQ4nMqkokskEhKnhO5t/m2vm
+      /0KMT7oErzNqNhng9YvT5Z5hMryKPBH4s/hPC5tGFnJw4CDUPqjdll+X9qvXb+LlHUuXPc8X
+      uVwOhsmIEhodCIVgNBS/HaqUWDQUQm2y47VXFu6pVSjm2ia9tEDr0heRyWQX7PkrBHVWC6bd
+      M7yLbOWLZ8ZXErVAKxlRo6tqLSYMPBxa1rWTrmmszDPxJVd2bN2Iy1e78aN33yzIeCzLgslk
+      kE4zyHz/L5PJgGGYef+dQd/d+3glj1KDhBfDSwCZVBxDjx5Bo9Ihks3CqKYRTrJYw6NC9HyM
+      eh3C4eWFQ9zsu4vdOzYv61q+WC1mhCNRxOKJvMt3cxyHTz77A7JZFkqlAkqlAgq5HArF3L9y
+      KJVKKBRy7Nq6Ec4GR4FeBWEheEaDKqDV6FClqULE5UGiygCtiuadDzAHByCTzfCO6+Y4DtMe
+      LywmY9Fi5Dt2bsXlq9dx6EBHXuN4vD5QFIWfnDyS0/nZBcqBEAoHLwGkohGEEwmo1FWQqdQw
+      qOWIJDne+QBPQ/GOc590ueGoqy1qfPxLK5tx4dtOgKIgX9brnBXu5avdeO1AB4ntLxF4fQpV
+      OhPadLNGmdU6axDmG6VSU61FNBbnlfN66/Y9bOVR9rwQ0DSNbZs2oOfWHezcunFZY8ztKNeW
+      WIU3KSP6DovZZORVKY7jOLhnvGioF9ZDtRCb29vQc+v2sq8/f7kT+wtQyYBQOEQXQK2ZX9eY
+      QDCUc/+nQiOXy7CypQmDj0Z5XxuORBGNxmC3FdeVSlga0QVQZ62Fm0ffsN7+e9jcvk7AGS3N
+      3l3bcPlqN+/rzl++igN7dgkwI0I+iC4Ak8kAX44lUjiOw6PH41jZ3CTwrBZHo1GjplrLq+N5
+      LJ6A1xdAs7M0u09KGdEFIKPpnPuGRWNxaNRVBSl8lQ8H9+3GpStdOZ9/8btreHXvbgFnRFgu
+      ogtgrkP7YnAch1A4goGHw/j9V+exaYN4y585TEYD4vFEToF88XgCLveMoDkLhOVTEs7o2ZLp
+      KaRSaUy63JhyueHyzCCZTIGiKOhqquGw29Cxc2tJLCMoisL+jp34trMbb762f8lzO2/0Ys+u
+      bUWaGYEvJSGA1hXN+NXHn8FsNKDOZsWqFU3Y9/L2ki4I2+xswLlLV5BmmEWrNqQZBkOPHuPg
+      vpeLPDtCrlAc3/iFRchms8vcCS5fem7dAcMw2LV94ZikS1e6YDIYsKFN/PKKhIUR3QYoZzZu
+      WIu+u/cXzBVgGAb3HgyhbW1hi3URCgsRQB7IZTKsaG5csKlzV08ftm1uJ+mMJQ75dPJkz85t
+      uHr95lPHMpkM7gwMYutG4ZL1CYWBX3+AVBz37w/A7/djYHAEAe80RsdLo4a+WKjVVdDVVGPK
+      5X5y7NadAWzasJb8+pcB/PIBlGqY9Bp4fGHY1XK44hlUU/z7A1Qa+1/ejnOXOvH+sTfBshx6
+      ++/hP/y4MH0KCMLCLx8g7MHETAx1Zh0e+yOwGDWIJtk88wHKH2utBWkmjVg8gdHxSbSubIZK
+      VbouXMIPEDdogXg0Oo6Bh0OYdLnxH39yoqT3MAg/QBapBaKlqQEPh0fR1FhPvvxlBHkCFBCf
+      PwidrhoKku5YNhABECQNWQIRJA0RAEHSEAEQJA0RAEHSEAEQJA0RAEHSEAEQJA0RAEHSEAEQ
+      JA0RAEHS8ApaYZkk7g2NwVajgifBQkMziCRZtLetEWp+BIKg8BIAraiC2aCDQkkhPv4Ysjor
+      ajQkIYZQvvBukRQOh6C22WBtbESdSYtwEpJPiCGULyQalCBpiBFMkDREAARJQwRAkDREAARJ
+      QwRAkDREAARJQwRAkDREAARJQwRAkDREAARJQwRAkDREAARJwzsfYMztR51BixGXH3VGNUIJ
+      Ds2NdqHmRyAICu98AJWMhjcYIQ0yCBUB73yAqalJ2KxWPA5GSYMMQtlD8gEIkoYYwQRJQwRA
+      kDREAARJQwRAkDREAARJQwRAkDT/Hx1lvtcG5fyEAAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
