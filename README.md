@@ -9,7 +9,9 @@ Program from pacman Data Science Max
 - Python Language Programming
 
 - Data Visualization & Data Wrangling
-
+```
+https://public.tableau.com/app/profile/rochi.eko.pambudi/vizzes
+```
 
 ## Lessons Learned
 
