@@ -12,6 +12,9 @@ Program from pacman Data Science Max
 ```
 https://public.tableau.com/app/profile/rochi.eko.pambudi/vizzes
 ```
+```
+https://medium.com/@rochieko11/visualization-analysis-approaches-for-customer-segmentation-to-prevent-churn-59d8a8964c5b
+```
 
 ## Lessons Learned
 
