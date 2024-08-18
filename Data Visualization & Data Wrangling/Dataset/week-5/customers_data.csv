@@ -1,0 +1,21 @@
+customerNumber,name,phone,addressline1,city,state,postalCode,country,creditLimit
+103,"Carine ",40.32.2555,"54, rue Royale",Nantes,CA,44000,France,21000.00
+112,Jean,7025551838,"8489 Strong St.","Las Vegas",NV,83030,USA,71800.00
+114,Peter,"03 9520 4555","636 St Kilda Road",Melbourne,Victoria,3004,Australia,117300.00
+119,"Janine ",40.67.8555,"67, rue des Cinquante Otages",Nantes,NULL,44000,France,118200.00
+121,"Jonas ","07-98 9555","Erling Skakkes gate 78",Stavern,NULL,4110,Norway,81700.00
+124,Susan,4155551450,"5677 Strong St.","San Rafael",CA,97562,USA,210500.00
+125,"Zbyszek ","(26) 642-7555","ul. Filtrowa 68",Warszawa,NULL,01-012,Poland,0.00
+128,Roland,"+49 69 66 90 2555","Lyonerstr. 34",Frankfurt,NULL,60528,Germany,59700.00
+129,Julie,6505555787,"5557 North Pendale Street","San Francisco",CA,94217,USA,64600.00
+131,Kwai,2125557818,"897 Long Airport Avenue",NYC,NY,10022,USA,114900.00
+141,"Diego ","(91) 555 94 44","C/ Moralzarzal, 86",Madrid,NULL,28034,Spain,227600.00
+144,"Christina ","0921-12 3555","Berguvsvägen  8",Luleå,NULL,"S-958 22",Sweden,53100.00
+145,"Jytte ","31 12 3555","Vinbæltet 34",Kobenhavn,NULL,1734,Denmark,83400.00
+146,"Mary ",78.32.5555,"2, rue du Commerce",Lyon,NULL,69004,France,123900.00
+148,Eric,"+65 221 7555","Bronz Sok.",Singapore,NULL,079903,Singapore,103800.00
+151,Jeff,2125557413,"4092 Furth Circle",NYC,NY,10022,USA,138500.00
+157,Kelvin,2155551555,"7586 Pompton St.",Allentown,PA,70267,USA,100600.00
+161,Juri,6505556809,"9408 Furth Circle",Burlingame,CA,94217,USA,84600.00
+166,Wendy,"+65 224 1555","106 Linden Road Sandown",Singapore,NULL,069045,Singapore,97900.00
+167,Veysel,"+47 2267 3215","Brehmen St. 121",Bergen,NULL,"N 5804","Norway  ",96800.00
