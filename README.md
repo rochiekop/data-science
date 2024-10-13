@@ -4,6 +4,12 @@
 Program from pacman Data Science Max
 
 
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=git,py,postgres,c,vim" />
+  </a>
+</p>
+
 ## Roadmap
 
 - Python Language Programming
